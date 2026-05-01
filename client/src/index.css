@@ -109,3 +109,85 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* ===== DARK MODE FIX FOR CARDS ===== */
+
+body.dark .stat-card,
+body.dark .card,
+body.dark .why-card,
+body.dark .service-card {
+  background: #1e293b;   /* dark card */
+  color: #ffffff;        /* white text */
+}
+
+body.dark .stat-card p,
+body.dark .card p,
+body.dark .why-card p {
+  color: #cbd5f5;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+  color: #ffffff;
+}
+
+body.dark button {
+  background: #2563eb;
+  color: white;
+}
+
+/* ================= DARK MODE COMPLETE FIX ================= */
+
+/* Sections */
+body.dark section {
+  background: #0f172a;
+  color: white;
+}
+
+/* Cards */
+body.dark .card,
+body.dark .service-card,
+body.dark .why-card,
+body.dark .review-card,
+body.dark .stat-card {
+  background: #1e293b;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+  color: white;
+}
+
+/* Paragraphs */
+body.dark p {
+  color: #cbd5f5;
+}
+
+/* Stats numbers (VERY IMPORTANT) */
+body.dark .stat-card h2,
+body.dark .stat-card span {
+  color: #38bdf8;
+}
+
+/* Reviews text */
+body.dark .review-card p {
+  color: #e2e8f0;
+}
+
+/* Images section fix */
+body.dark img {
+  opacity: 0.95;
+}
+
+/* Buttons */
+body.dark button {
+  background: #2563eb;
+  color: white;
+}
+
+/* Navbar already handled */

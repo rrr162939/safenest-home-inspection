@@ -29,7 +29,7 @@ function WhyChooseUs() {
 
       </div>
 
-      <div className="stats">
+      <div className="stat-card">
 
         <div>
           <h1>500+</h1>

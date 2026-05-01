@@ -1,6 +1,9 @@
 import "react";
+import { useNavigate } from "react-router-dom";
 
 function Hero() {
+  const navigate = useNavigate();
+
   return (
     <section className="hero">
       <div className="overlay"></div>
@@ -13,7 +16,9 @@ function Hero() {
           Electrical, Leakage, Pest Damage and Property Safety.
         </p>
 
-        <button>Book Inspection Now</button>
+        <button onClick={() => navigate("/booking")}>
+          Book Inspection
+        </button>
       </div>
     </section>
   );

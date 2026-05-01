@@ -7,7 +7,6 @@ import ContactSupport from "../components/ContactSupport";
 import Footer from "../components/Footer";
 import WhyChooseUs from "../components/WhyChooseUs";
 import Gallery from "../components/Gallery";
-
 function Home() {
   return (
     <>

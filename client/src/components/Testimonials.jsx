@@ -5,7 +5,7 @@ function Testimonials() {
     <section className="testimonials">
       <h2>Customer Reviews</h2>
 
-      <div className="review-box">
+      <div className="review-card">
         <p>
           "Excellent service! Very professional inspection team.
           Highly recommended."
